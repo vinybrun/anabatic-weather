@@ -1,0 +1,11 @@
+{
+  "name": "anabatic-weather",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Anabatic — upslope weather desk. Search any city or use your location. Open-Meteo, no API key.",
+  "scripts": {
+    "test": "node --test test/weather.test.js",
+    "start": "python3 -m http.server 8765"
+  }
+}
